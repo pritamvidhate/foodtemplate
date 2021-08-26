@@ -266,3 +266,39 @@
   padding: 10px;
   cursor: pointer;
 }
+
+@media (max-width: 576px) {
+  .section1,
+  .subSection,
+  .section2 {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .section1 .left {
+    padding: 20px 0;
+  }
+
+  .left h1 {
+    padding-right: 40px;
+  }
+
+  .subSection .right {
+    padding: 20px 0;
+  }
+  .clients {
+    flex-direction: column;
+  }
+
+  .clients .client {
+    margin-top: 3rem;
+  }
+
+  .examples {
+    flex-wrap: wrap;
+  }
+  .examples div {
+    flex: 0.5;
+    flex-basis: 50%;
+  }
+}
