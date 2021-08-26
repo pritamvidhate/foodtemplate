@@ -40,6 +40,10 @@
   cursor: pointer;
 }
 
+.text {
+  padding-top: 70px;
+}
+
 .contact {
   background-color: #fff;
   color: #111;
@@ -66,13 +70,14 @@
 }
 
 .arrow {
-  margin-top: 65px;
+  margin-top: 60px;
 }
 
 .section1,
-.section2 {
+.section2,
+.subSection {
   display: flex;
-  height: 500px;
+  height: 450px;
 }
 
 .section1 img {
@@ -107,10 +112,42 @@
   display: flex;
   align-items: center;
   cursor: pointer;
+  background-color: #fff;
+  border-style: none;
 }
 
 .left div img {
   width: 150px;
+}
+
+.subSection {
+  display: flex;
+}
+
+.subSection .right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.right h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  padding-left: 60px;
+}
+.right p {
+  color: #848391;
+  line-height: 1.8;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 1rem;
+  padding: 0 60px;
+}
+
+.right .button {
+  margin-left: 60px;
+  border-style: none;
+  background-color: #fff;
+  cursor: pointer;
 }
 
 .left,
@@ -188,9 +225,13 @@
   display: flex;
 }
 
+.examples div {
+  flex: 0.25;
+}
 .examples img {
-  /* flex: 0.25%; */
-  width: 25%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .footer {
