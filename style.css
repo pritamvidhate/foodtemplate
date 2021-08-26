@@ -301,4 +301,14 @@
     flex: 0.5;
     flex-basis: 50%;
   }
+  .menu span {
+    display: none;
+  }
+  .menu .contact {
+    padding: 10px;
+    font-size: 20px;
+  }
+  .main .text {
+    font-size: 1.5rem;
+  }
 }
